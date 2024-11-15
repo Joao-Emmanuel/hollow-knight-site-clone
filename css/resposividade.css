@@ -272,4 +272,57 @@
     .principal .soundtrack .album_image img {
         width: 100%;
     }
+
+
+
+
+
+
+
+
+
+
+    .principal .friends .container_friends {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .principal .awards {
+        margin-top: 150px;
+    }
+
+    .principal .awards h2 {
+        font-size: 32px;
+    }
+
+    .principal .awards .container_award {
+        flex-direction: column;
+    }
+
+    .principal .awards .container_award .info h3 {
+        font-size: 28px;
+    }
+
+    .principal .awards .container_award img {
+        width: 100%;
+    }
+
+
+    .principal .press_kit .kit {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .principal .press_kit .kit img {
+        width: 100%;
+        height: auto;
+    }
+
+    .principal .press_kit .kit .info {
+        align-items: center;
+        gap: 20px;
+    }
 }
