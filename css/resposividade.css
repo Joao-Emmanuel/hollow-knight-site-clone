@@ -1,3 +1,4 @@
+/* reponsividade para smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
     .cabecalho {
         width: 100%;
@@ -24,6 +25,8 @@
         width: 300px;
     }
 
+
+
     .principal .content {
         gap: 100px;
     }
@@ -39,10 +42,17 @@
         align-items: center;
         gap: 50px;
     }
+
+    .principal .content .information .troca1 {
+        order: 2;
+    }
+
     .principal .content .information img {
         width: 340px;
         height: 100%;
     }
+
+
 
     .principal .trailer .video iframe {
         width: 100%;
@@ -51,11 +61,15 @@
         max-width: 100%;
     }
 
+
+
     .principal .expands .dlc_container {
         flex-direction: column;
         align-items: center;
         gap: 75px;
     }
+
+
 
     .principal .store .list {
         display: flex;
@@ -66,6 +80,8 @@
     .principal .store .list li a img {
         width: 100px;
     }
+
+
 
     .principal .soundtrack {
         display: flex;
@@ -82,6 +98,8 @@
         width: 100%;
     }
     
+
+
     .principal .container-slider {
         width: auto;
         margin: 250px 0;
@@ -91,6 +109,8 @@
     .principal .container-slider #next-button {
         height: 10px;
     }
+
+
 
     .principal .friends {
         margin-top: 200px;
@@ -115,6 +135,8 @@
         width: 300px;
     }
 
+
+
     .principal .awards .container_award {
         display: flex;
         flex-direction: column;
@@ -129,11 +151,15 @@
         width: 100%;
     }
 
+
+
     .principal .border {
         position: absolute;
         right: 0;
         left: 0;
     }
+
+
 
     .principal .press_kit .kit {
         flex-direction: column;
@@ -159,6 +185,8 @@
         text-align: center;
     }
 
+
+
     .principal .container_engine .engine {
         width: 80%;
     }
@@ -170,6 +198,7 @@
         width: 100%;
         text-align: center;
     }
+
 
 
     .container_rodape .rodape {
@@ -201,6 +230,8 @@
 
 
 
+
+/* reponsividade para tablets */
 @media (min-width: 481px) and (max-width: 768px) {
     .cabecalho {
         background-image: none;
@@ -212,6 +243,7 @@
     }
 
 
+
     .principal .content {
         gap: 50px;
     }
@@ -221,18 +253,15 @@
         gap: 35px;
     }
 
+    .principal .content .information .troca1 {
+        order: 2;
+    }
+
     .principal .content .information img {
         width: 90%;
         height: auto;
     }
 
-
-    .principal .trailer .video iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        height: auto;
-        max-width: 100%;
-    }
 
 
     .principal .store {
@@ -248,6 +277,7 @@
     }
 
 
+
     .principal .expands .dlc_container {
         flex-wrap: wrap;
         gap: 30px;
@@ -258,6 +288,7 @@
     .principal .expands .dlc_container .dlc {
         height: 400px;
     }
+
 
 
     .principal .soundtrack {
@@ -275,19 +306,41 @@
 
 
 
+    .principal .container-slider {
+        margin: 200px 0;
+    }
+
+    .principal .trailer .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        max-width: 100%;
+    }
 
 
 
-
-
-
+    .principal .friends {
+        padding-top: 100px;
+        margin: 0;
+    }
 
     .principal .friends .container_friends {
-        flex-direction: column;
-        gap: 50px;
+        flex-direction: row;
+        gap: 20px;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
     }
+
+    .principal .friends .container_friends .info_friend {
+        width: 270px;
+    }
+
+    .principal .friends .container_friends .info_friend img {
+        width: 80%;
+        max-width: 350px;
+    }
+
 
 
     .principal .awards {
@@ -311,6 +364,7 @@
     }
 
 
+
     .principal .press_kit .kit {
         flex-direction: column;
         gap: 25px;
@@ -323,6 +377,46 @@
 
     .principal .press_kit .kit .info {
         align-items: center;
+        gap: 20px;
+    }
+
+
+
+    .principal .container_engine .engine {
+        width: 80%;
+    }
+
+    .principal .container_engine .engine p {
+        text-align: center;
+    }
+
+
+    .container_rodape .rodape {
+        width: 90%;
+    }
+
+    .container_rodape .rodape img {
+        width: 225px;
+    }
+
+    .container_rodape .rodape .container_devs {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .container_rodape .rodape .container_devs .dev {
+        width: 250px;
+    }
+
+    .container_rodape .rodape .social {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_rodape .rodape .social ul {
         gap: 20px;
     }
 }
