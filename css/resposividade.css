@@ -1,0 +1,275 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .cabecalho {
+        width: 100%;
+        background-image: none;
+    }
+
+    .cabecalho .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    .cabecalho .navigation .nav .list_icon {
+        display: flex;
+        gap: 70px;
+    }
+
+    .cabecalho .logo_home {
+        padding: 40px 0;
+        margin: 0;
+    }
+    .cabecalho .logo_home img {
+        width: 300px;
+    }
+
+    .principal .content {
+        gap: 100px;
+    }
+
+    .principal .content h1 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .principal .content .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .principal .content .information img {
+        width: 340px;
+        height: 100%;
+    }
+
+    .principal .trailer .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .principal .expands .dlc_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+    }
+
+    .principal .store .list {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .principal .store .list li a img {
+        width: 100px;
+    }
+
+    .principal .soundtrack {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 150px;
+    }
+
+    .principal .soundtrack img {
+        width: 100%;
+    }
+
+    .principal .soundtrack .info_album a {
+        width: 100%;
+    }
+    
+    .principal .container-slider {
+        width: auto;
+        margin: 250px 0;
+    }
+
+    .principal .container-slider #prev-button,
+    .principal .container-slider #next-button {
+        height: 10px;
+    }
+
+    .principal .friends {
+        margin-top: 200px;
+    }
+
+    .principal .friends h2 {
+        margin-bottom: 30px;
+    }
+
+    .principal .friends .container_friends {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .principal .friends .container_friends .info_friend {
+        width: 300px;
+    }
+
+    .principal .friends .container_friends .info_friend img {
+        width: 300px;
+    }
+
+    .principal .awards .container_award {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .principal .awards .container_award .info h3 {
+        font-size: 20px;
+    }
+
+    .principal .awards .container_award img {
+        width: 100%;
+    }
+
+    .principal .border {
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+    .principal .press_kit .kit {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .principal .press_kit .kit img {
+        width: 250px;
+        height: 112px;
+        margin-top: 100px;
+    }
+
+    .principal .press_kit .kit .info {
+        gap: 20px;
+    }
+
+    .principal .press_kit .kit .info a {
+        width: 100%;
+    }
+
+    .principal .press_kit img {
+        text-align: center;
+    }
+
+    .principal .container_engine .engine {
+        width: 80%;
+    }
+    .principal .container_engine .engine img {
+        width: 100%;
+    }
+
+    .principal .container_engine .engine a {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .container_rodape .rodape {
+        width: 80%;
+    }
+
+    .container_rodape .rodape > img {
+        width: 150px;
+    }
+
+    .container_rodape .rodape .link {
+        width: 100%;
+    }
+
+    .container_rodape .rodape .container_devs {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .container_rodape .rodape .container_devs .dev {
+        width: 100%;
+    }
+
+    .container_rodape .rodape .container_devs .dev p {
+        width: 100%;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .cabecalho {
+        background-image: none;
+        margin-bottom: 50px;
+    }
+
+    .cabecalho .logo_home img {
+        width: 70%;
+    }
+
+
+    .principal .content {
+        gap: 50px;
+    }
+
+    .principal .content .information {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .principal .content .information img {
+        width: 90%;
+        height: auto;
+    }
+
+
+    .principal .trailer .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .principal .store {
+        margin: 75px 0 100px;
+    }
+
+    .principal .store .list {
+        justify-content: space-evenly;
+    }
+
+    .principal .store .list li a img {
+        width: 180px;
+    }
+
+
+    .principal .expands .dlc_container {
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .principal .expands .dlc_container .dlc {
+        height: 400px;
+    }
+
+
+    .principal .soundtrack {
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    .principal .soundtrack .info_album {
+        align-items: center;
+    }
+
+    .principal .soundtrack .album_image img {
+        width: 100%;
+    }
+}
