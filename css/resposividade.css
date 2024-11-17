@@ -391,6 +391,7 @@
     }
 
 
+
     .container_rodape .rodape {
         width: 90%;
     }
@@ -412,6 +413,7 @@
     .container_rodape .rodape .social {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
@@ -419,4 +421,186 @@
     .container_rodape .rodape .social ul {
         gap: 20px;
     }
+
+}
+
+
+
+
+/* responsividade para notebooks */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cabecalho {
+        margin-bottom: 50px;
+    }
+
+    .cabecalho .logo_home img {
+        width: 80%;
+    }
+
+    .principal .content .information {
+        align-items: start;
+    }
+
+    .principal .content .information {
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+
+    .principal .content .information img {
+        width: 50%;
+        height: auto;
+    }
+
+    .principal .content .information .description {
+        gap: 15px;
+    }
+
+    .principal .content .information .description h2 {
+        font-size: 26px;
+    }
+
+
+
+    .principal .trailer .video iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+
+    .principal .store .list {
+        justify-content: space-between;
+    }
+
+    .principal .store .list li a img {
+        width: 250px;
+    }
+
+
+
+    .principal .expands .dlc_container {
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+
+
+
+    .principal .soundtrack {
+        flex-direction: column;
+        margin: 150px 0 150px;
+        gap: 75px;
+    }
+
+    .principal .soundtrack .info_album {
+        align-items: center;
+    }
+
+
+
+    .principal .friends .container_friends {
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .principal .friends .container_friends .info_friend {
+        width: 300px;
+    }
+
+    .principal .friends .container_friends .info_friend img {
+        width: 80%;
+        max-width: 350px;
+    }
+
+
+
+    
+    .principal .awards {
+        margin-top: 150px;
+    }
+
+    .principal .awards h2 {
+        font-size: 32px;
+    }
+
+    .principal .awards .container_award {
+        flex-direction: column;
+    }
+
+    .principal .awards .container_award .info h3 {
+        font-size: 28px;
+    }
+
+    .principal .awards .container_award img {
+        width: 80%;
+    }
+
+
+
+    .principal .press_kit .kit {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .principal .press_kit .kit img {
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+
+    .principal .press_kit .kit .info {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .principal .press_kit .kit .info a {
+        margin-top: 30px;
+    }
+
+
+
+    .principal .container_engine .engine {
+        width: 80%;
+    }
+
+    .principal .container_engine .engine p {
+        text-align: center;
+    }
+
+
+
+    .container_rodape .rodape {
+        width: 90%;
+    }
+
+    .container_rodape .rodape img {
+        width: 225px;
+    }
+
+    .container_rodape .rodape .container_devs {
+        flex-wrap: wrap;
+        justify-content: center;    
+        gap: 15px;
+    }
+
+    .container_rodape .rodape .container_devs .dev {
+        width: 250px;
+    }
+
+    .container_rodape .rodape .social {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_rodape .rodape .social ul {
+        gap: 20px;
+    }
+
 }
