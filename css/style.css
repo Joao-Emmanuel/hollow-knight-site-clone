@@ -125,6 +125,14 @@ img {
     margin-top: 100px;
 }
 
+.principal .trailer .video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    max-width: 100%;
+}
+
+
 
 .principal .store {
     margin: 75px 0 175px;
@@ -449,7 +457,7 @@ img {
 }
 
 .container_rodape .rodape {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
     padding-top: 500px;
@@ -488,7 +496,8 @@ img {
 .container_rodape .rodape .container_devs {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 20px;
+    width: 100%;
 }
 
 .container_rodape .rodape .container_devs .dev {

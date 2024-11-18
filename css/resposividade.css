@@ -53,16 +53,6 @@
     }
 
 
-
-    .principal .trailer .video iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        height: auto;
-        max-width: 100%;
-    }
-
-
-
     .principal .expands .dlc_container {
         flex-direction: column;
         align-items: center;
@@ -310,13 +300,6 @@
         margin: 200px 0;
     }
 
-    .principal .trailer .video iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        height: auto;
-        max-width: 100%;
-    }
-
 
 
     .principal .friends {
@@ -461,15 +444,6 @@
 
 
 
-    .principal .trailer .video iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        height: auto;
-        max-width: 100%;
-    }
-
-
-
     .principal .store .list {
         justify-content: space-between;
     }
@@ -603,4 +577,92 @@
         gap: 20px;
     }
 
+}
+
+
+
+
+
+/* responsividade desktop */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .principal .content .information {
+        gap: 25px;
+    }
+
+    .principal .content .information img {
+        width: 50%;
+        height: auto;
+    }
+
+
+
+    .principal .store .list {
+        justify-content: space-evenly;
+    }
+
+    .principal .store .list li a img {
+        width: 300px;
+    }
+
+
+
+    .principal .expands .dlc_container {
+        justify-content: space-evenly;
+    }
+
+    .principal .expands .dlc_container .dlc {
+        width: 200px;
+    }
+
+    .principal .expands .dlc_container .dlc img {
+        width: 100%;
+    }
+
+
+
+    .principal .soundtrack {
+        gap: 100px;
+        justify-content: space-between;
+    }
+
+    .principal .soundtrack .album_image img {
+        width: 450px;
+    }
+
+
+
+    .principal .friends .container_friends {
+        justify-content: space-evenly;
+    }
+
+    .principal .friends .container_friends .info_friend {
+        width: 300px;
+    }
+
+    .principal .friends .container_friends .info_friend img {
+        width: 100%;
+    }
+
+    .principal .friends .container_friends .info_friend a {
+        padding: 15px;
+    }
+
+
+
+    .principal .press_kit .kit {
+        gap: 25px;
+        justify-content: space-between;
+    }
+
+    .principal .press_kit .kit .info {
+        gap: 20px;
+    }
+
+
+    .container_rodape .rodape .social {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
